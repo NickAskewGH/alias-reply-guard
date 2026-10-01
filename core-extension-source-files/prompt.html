@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Check reply address</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <div class="eyebrow">ALIAS REPLY GUARD</div>
+    <h1>Check your reply address</h1>
+    <p id="explanation">Checking the address this message was sent to…</p>
+    <div id="choice" hidden>
+      <label for="alias">Reply from</label>
+      <select id="alias"></select>
+      <p class="hint" id="account"></p>
+    </div>
+    <p id="status" role="alert" hidden></p>
+    <div class="actions">
+      <button id="dismiss" type="button" class="secondary">Close</button>
+      <button id="apply" type="button" hidden>Create identity and use it</button>
+    </div>
+    <p class="footnote">Your message stays open. Review it, then send as usual.</p>
+  </main>
+  <script src="prompt.js"></script>
+</body>
+</html>

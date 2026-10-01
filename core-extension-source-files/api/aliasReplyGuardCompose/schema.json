@@ -1,0 +1,17 @@
+[
+  {
+    "namespace": "aliasReplyGuardCompose",
+    "functions": [
+      {
+        "name": "refreshIdentityList",
+        "type": "function",
+        "async": true,
+        "description": "Refresh an open compose window's From menu if the requested identity is missing.",
+        "parameters": [
+          { "name": "tabId", "type": "integer" },
+          { "name": "identityId", "type": "string" }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alias Reply Guard settings</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="settings">
+    <div class="eyebrow">ALIAS REPLY GUARD</div>
+    <h1>Settings</h1>
+    <p>Only replies addressed to one of these domains are checked. Enter one domain per line.</p>
+    <label for="domains">Alias domains</label>
+    <textarea id="domains" rows="5" spellcheck="false"></textarea>
+    <div class="actions"><button id="save" type="button">Save domains</button></div>
+    <p id="status" role="status" hidden></p>
+    <p class="footnote">New identities use the default identity of the matching mail account for your name, organisation, and compose format. They do not copy its reply-to address or signature.</p>
+  </main>
+  <script src="core.js"></script>
+  <script src="options.js"></script>
+</body>
+</html>
