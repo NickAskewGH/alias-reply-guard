@@ -13,6 +13,22 @@ When you open a reply, the add-on checks the original message's To, Cc, and Bcc 
 
 The new identity copies the account's default **name**, **organisation**, and **compose format**. It deliberately does not copy the default Reply-To address or signature, as either might contain the private default address.
 
+## Screenshots
+
+Captured in Thunderbird using example addresses and a temporary local mail account.
+
+Configure the domains whose aliases you want to protect:
+
+![Alias Reply Guard settings with example-domain.com configured](docs/screenshots/settings.png)
+
+When a reply uses the wrong address, create and select the matching alias identity:
+
+![Prompt offering to create shop@example-domain.com and use it instead of the default address](docs/screenshots/alias-prompt.png)
+
+The new identity is selected in the same reply window, ready for you to review and send:
+
+![Thunderbird reply with shop@example-domain.com selected in the From field](docs/screenshots/reply-identity.png)
+
 ## Install
 
 Download the ready-to-install [alias-reply-guard.xpi](https://github.com/NickAskewGH/alias-reply-guard/raw/refs/heads/main/dist/alias-reply-guard.xpi). No build tools are required.
