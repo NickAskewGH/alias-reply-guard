@@ -15,6 +15,8 @@ The new identity copies the account's default **name**, **organisation**, and **
 
 ## Install
 
+Download the ready-to-install [alias-reply-guard.xpi](https://github.com/NickAskewGH/alias-reply-guard/raw/refs/heads/main/dist/alias-reply-guard.xpi). No build tools are required.
+
 In Thunderbird, open **Add-ons and Themes** → the gear menu → **Install Add-on From File…**, then select `alias-reply-guard.xpi`. The initial protected domain is the placeholder `example-domain.com`. Before using the add-on, open its **Preferences** in Add-ons and Themes and replace this with your own domain.
 
 ## Scope and limitations
